@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: 戴鸿锟的个人站点
-  text: 欢迎来到戴鸿锟的个人站点
-  tagline: 欢迎。。。
+  name: 个人站点
+  text: 个人站点
+  tagline: 没有努力，怎么会有回报。
   image:
-    src: /logo.png
-    alt: VitePress
+    src: https://cn.vitejs.dev/logo-with-shadow.png
+    alt: logo
   actions:
     - theme: brand
       text: 点击我
