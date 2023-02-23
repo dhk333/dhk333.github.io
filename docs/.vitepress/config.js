@@ -3,7 +3,7 @@ export default {
   description: 'Just playing around.',
   srcDir: './pages/', // 配置根路径
   lastUpdated: true, // 显示文章更新时间
-  outDir: '/public', // 打包后保存路径
+  outDir: './public/', // 打包后保存路径
   themeConfig: { // 主题配置
     siteTitle: '清晨投递',
     lastUpdatedText: '最后更新：', // 时间前缀文字
