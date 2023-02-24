@@ -19,15 +19,15 @@ export default {
       {
         text: '前端',
         items: [
-          { text: 'JavaScript', link: '/articles/other/javascript/' },
-          { text: 'Git', link: '/articles/other/git/' }
+          { text: 'JavaScript', link: '/articles/javascript/index' },
+          { text: 'Git', link: '/articles/git/index' }
         ]
       },
       {
         text: '项目',
         items: [
-          { text: '黑马头条', link: '/articles/other/javascript/' },
-          { text: '后台管理系统', link: '/articles/other/git/' }
+          { text: '黑马头条', link: '/project/headline/index' },
+          { text: '后台管理系统', link: '/project/admin/index' }
         ]
       },
       {
@@ -42,7 +42,7 @@ export default {
         collapsible: true,
         collapsed: true,
         items: [
-          { text: 'JavaScript', link: '/articles/other/javascript/' },
+          { text: 'JavaScript', link: '/articles/javascript/' },
         ]
       },
     ],
