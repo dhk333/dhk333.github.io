@@ -6,7 +6,7 @@ export default {
   outDir: './public/', // 打包后保存路径
   themeConfig: { // 主题配置
     siteTitle: '清晨投递',
-    lastUpdatedText: '最后更新：', // 时间前缀文字
+    lastUpdatedText: '最后更新', // 时间前缀文字
     outlineTitle: '快速导航',
     docFooter: { // 上一页/下一页上方显示的文字
       prev: '上一篇',
@@ -19,15 +19,15 @@ export default {
       {
         text: '前端',
         items: [
-          { text: 'JavaScript', link: '/articles/javascript/index' },
-          { text: 'Git', link: '/articles/git/index' }
+          { text: 'JavaScript', link: '/articles/javascript/' },
+          { text: 'Git', link: '/articles/git/' }
         ]
       },
       {
         text: '项目',
         items: [
-          { text: '黑马头条', link: '/project/headline/index' },
-          { text: '后台管理系统', link: '/project/admin/index' }
+          { text: '黑马头条', link: '/project/headline/' },
+          { text: '后台管理系统', link: '/project/admin/' }
         ]
       },
       {
@@ -47,7 +47,7 @@ export default {
       },
     ],
     socialLinks: [ // 社交账户
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/dhk333' },
     ],
     footer: { // 底部
       message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
