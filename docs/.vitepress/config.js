@@ -1,17 +1,18 @@
 export default {
-  title: '戴鸿锟的个人站点', // 站点名称
+  title: '清晨投递的人个站点', // 站点名称
   description: 'Just playing around.',
-  srcDir: '/pages/', // 配置根路径
+  srcDir: 'pages/', // 配置根路径
   lastUpdated: true, // 显示文章更新时间
   outDir: '/public', // 打包后保存路径
   themeConfig: { // 主题配置
-    siteTitle: '戴鸿锟的个人站点',
+    siteTitle: '清晨投递',
     lastUpdatedText: '最后更新：', // 时间前缀文字
+    outlineTitle: '快速导航',
     docFooter: { // 上一页/下一页上方显示的文字
       prev: '上一篇',
       next: '下一篇'
     },
-    // logo: "" // logo
+    // logo: '/logo.png', // logo
     nav: [ // 页面导航
       { text: '关于我', link: '/my/' },
       {

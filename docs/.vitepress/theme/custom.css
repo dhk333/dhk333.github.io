@@ -1,0 +1,9 @@
+/* 自定义主题 */
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-button-brand-border: #747bff;
+
+  --vp-button-brand-hover-bg: #5058f5;
+  --vp-button-brand-active-border: #5058f5;
+}

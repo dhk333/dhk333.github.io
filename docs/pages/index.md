@@ -2,17 +2,27 @@
 layout: home
 
 hero:
-  name: 个人站点
-  text: 个人站点
-  tagline: 没有努力，怎么会有回报。
+  name: 清晨投递的个人站点
+  text: 记录前端相关学习笔记
+  tagline: 
   image:
-    src: https://cn.vitejs.dev/logo-with-shadow.png
+    src:  /logo.png
     alt: logo
   actions:
     - theme: brand
-      text: 点击我
+      text: 关于我 ▷
       link: /guide/what-is-vitepress
     - theme: alt
       text: 我的项目
       link: https://github.com/vuejs/vitepress
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
 ---
