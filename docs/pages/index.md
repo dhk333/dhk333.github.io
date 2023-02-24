@@ -3,13 +3,14 @@ layout: home
 
 hero:
   name: 清晨投递的个人站点
-  text: 记录前端相关学习笔记
-  tagline: 
+  text: 宝剑锋从磨砺出，梅花香自苦寒来。
+  tagline: 没有努力，怎么会有回报。
   image:
     src:  /logo.png
     alt: logo
   actions:
     - theme: brand
+<<<<<<< HEAD
       text: 关于我 ▷
       link: /guide/what-is-vitepress
     - theme: alt
