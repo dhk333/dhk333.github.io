@@ -1,4 +1,7 @@
-export default {
+import autoGetSidebarOptionBySrcDir from "./sidebar";
+const path = require("path");
+
+module.exports = {
   title: '清晨投递的人个站点', // 站点名称
   description: 'Just playing around.',
   // srcDir: 'pages/', // 配置根路径
@@ -19,7 +22,8 @@ export default {
       {
         text: '前端',
         items: [
-          { text: 'JavaScript', link: '/articles/javascript/' },
+          { text: 'JavaScript', link: '/articles/javascript/01、基础类型' },
+          { text: 'Vue', link: '/articles/vue/Day03_基础API_计算属性_过滤器_侦听器_品牌管理案例.md' },
           { text: 'Git', link: '/articles/git/' }
         ]
       },
@@ -36,16 +40,11 @@ export default {
           { text: '2022', link: '/year/2022/' },
         ]
       }],
-    sidebar: [ // 侧边栏
-      {
-        text: '前端',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          { text: 'JavaScript', link: '/articles/javascript/' },
-        ]
-      },
-    ],
+    sidebar:  // 侧边栏
+    {
+      "/articles/javascript": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/javascript"), "javascript"),
+      "/articles/vue": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/vue"), "vue")
+    },
     socialLinks: [ // 社交账户
       { icon: 'github', link: 'https://github.com/dhk333' },
     ],

@@ -10,7 +10,7 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: 关于我 ▷
+      text: 关于我
       link: /guide/what-is-vitepress
     - theme: alt
       text: 我的项目
