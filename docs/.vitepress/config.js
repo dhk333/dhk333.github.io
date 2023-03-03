@@ -2,20 +2,25 @@ import autoGetSidebarOptionBySrcDir from "./sidebar";
 const path = require("path");
 
 module.exports = {
-  title: '清晨投递的人个站点', // 站点名称
+  lang: 'zh-cn',
+  // 站点名称
+  title: '清晨投递个人站点',
   description: 'Just playing around.',
-  // srcDir: 'pages/', // 配置根路径
   lastUpdated: true, // 显示文章更新时间
-  // outDir: './public/', // 打包后保存路径
-  themeConfig: { // 主题配置
+  // 主题配置
+  themeConfig: {
     siteTitle: '清晨投递',
-    lastUpdatedText: '最后更新', // 时间前缀文字
+    // 时间前缀文字
+    lastUpdatedText: '最后更新',
+    // 右侧侧边栏标题
     outlineTitle: '快速导航',
-    docFooter: { // 上一页/下一页上方显示的文字
+    // 上一页/下一页上方显示的文字
+    docFooter: {
       prev: '上一篇',
       next: '下一篇'
     },
-    logo: '/logo.png', // logo
+    // logo
+    logo: '/logo.png',
     nav: [ // 页面导航
       { text: '主页', link: '/' },
       // { text: '关于我', link: '/my/' },
@@ -40,7 +45,8 @@ module.exports = {
           { text: '2022', link: '/year/2022/' },
         ]
       }],
-    sidebar:  // 侧边栏
+    // 侧边栏
+    sidebar:
     {
       "/articles/git": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/git"), "Git"),
     },
@@ -59,10 +65,12 @@ module.exports = {
     //     }
     //   ]
     // },
-    socialLinks: [ // 社交账户
+    // 社交账户
+    socialLinks: [
       { icon: 'github', link: 'https://github.com/dhk333' },
     ],
-    footer: { // 底部
+    // 底部
+    footer: {
       message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
       copyright: 'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>'
     }
