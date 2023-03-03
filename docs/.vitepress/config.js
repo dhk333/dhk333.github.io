@@ -15,16 +15,16 @@ module.exports = {
       prev: '上一篇',
       next: '下一篇'
     },
-    // logo: '/logo.png', // logo
+    logo: '/logo.png', // logo
     nav: [ // 页面导航
       { text: '主页', link: '/' },
-      { text: '关于我', link: '/my/' },
+      // { text: '关于我', link: '/my/' },
       {
         text: '前端',
         items: [
           { text: 'JavaScript', link: '/articles/javascript/01、基础类型' },
           { text: 'Vue', link: '/articles/vue/Day03_基础API_计算属性_过滤器_侦听器_品牌管理案例.md' },
-          { text: 'Git', link: '/articles/git/' }
+          { text: 'Git', link: '/articles/git/1.Git简介' }
         ]
       },
       {
@@ -42,9 +42,23 @@ module.exports = {
       }],
     sidebar:  // 侧边栏
     {
-      "/articles/javascript": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/javascript"), "javascript"),
-      "/articles/vue": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/vue"), "vue")
+      "/articles/git": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/git"), "Git"),
     },
+    // {
+    //   "/articles/git": [
+    //     {
+    //       text: 'Git',
+    //       collapsible: true,
+    //       items: [
+    //         { text: 'Git简介', link: '/articles/git/1、Git简介' },
+    //         { text: '时光机穿梭', link: '/articles/git/2、时光机穿梭' },
+    //         { text: '远程仓库', link: '/articles/git/3、远程仓库' },
+    //         { text: '分支管理', link: '/articles/git/4、分支管理' },
+    //         { text: '标签管理', link: '/articles/git/5、标签管理' },
+    //       ]
+    //     }
+    //   ]
+    // },
     socialLinks: [ // 社交账户
       { icon: 'github', link: 'https://github.com/dhk333' },
     ],

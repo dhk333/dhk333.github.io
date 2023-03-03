@@ -3,26 +3,26 @@ layout: home
 
 hero:
   name: 清晨投递的个人站点
-  text: 宝剑锋从磨砺出，梅花香自苦寒来。
-  tagline: 没有努力，怎么会有回报。
+  text: 练习时长两年半，梦想当全栈(全干)工程师
+  tagline: 宝剑锋从磨砺出，梅花香自苦寒来
   image:
-    src:  /logo.png
-    alt: logo
+    src:  /home_img.png
+    alt: home-img
   actions:
     - theme: brand
-      text: 关于我
+      text: 我的项目
       link: /guide/what-is-vitepress
     - theme: alt
-      text: 我的项目
+      text: GitHub
       link: https://github.com/vuejs/vitepress
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 前端
+    details: 前端各类技术栈学习笔记
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 项目
+    details: 做过的项目
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 年终总结
+    details: 年终总结
 ---
