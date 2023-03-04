@@ -15,10 +15,10 @@ export default {
   mounted () {
     const commentConfig = {
       clientID: "4cc4bcb249a54914968e",
-      clientSecret: "538b45b15fb13e5e3752bcd549b46a893bf7e875",
+      clientSecret: "9e403e3c097690184b3d64c0b271f8b3ad03002e",
       repo: "dhk333.github.io",
-      owner: "1731381719@qq.com",
-      admin: ["1731381719@qq.com"],
+      owner: "dhk333",
+      admin: ["dhk333"],
       id: md5(location.pathname),
       distractionFreeMode: false,
     }
