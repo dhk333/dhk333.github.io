@@ -15,7 +15,7 @@ export default {
   mounted () {
     const commentConfig = {
       clientID: "4cc4bcb249a54914968e",
-      clientSecret: "9e403e3c097690184b3d64c0b271f8b3ad03002e",
+      clientSecret: "fb57a28686979029a813252cb428f34fcc95b0f9",
       repo: "dhk333.github.io",
       owner: "dhk333",
       admin: ["dhk333"],
