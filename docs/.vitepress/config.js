@@ -28,7 +28,7 @@ module.exports = {
         text: '前端',
         items: [
           { text: 'JavaScript', link: '/articles/javascript/01、基础类型' },
-          { text: 'Vue', link: '/articles/vue/Day03_基础API_计算属性_过滤器_侦听器_品牌管理案例.md' },
+          { text: 'Vue', link: '/articles/vue/1.指令' },
           { text: 'Git', link: '/articles/git/1.Git简介' }
         ]
       },
@@ -49,6 +49,7 @@ module.exports = {
     sidebar:
     {
       "/articles/git": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/git"), "Git"),
+      "/articles/vue": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/vue"), "Vue"),
     },
     // {
     //   "/articles/git": [

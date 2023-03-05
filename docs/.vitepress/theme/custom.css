@@ -23,36 +23,36 @@
 }
 
 /* 主页四大板块 */
-.VPFeature[data-v-549c013f] {
+.VPFeature {
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
   border: 1px solid #ddd;
   box-shadow: 0 0 15px #ddd;
   transition: all .3s ease;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
-.VPFeature[data-v-549c013f]:hover {
+.VPFeature:hover {
   box-shadow: 0 0 15px rgba(0, 17, 255, .4);
   animation: identifier 1.8s infinite ease;
 }
 
-.VPFeature[data-v-549c013f]:hover h2.title {
+.VPFeature:hover h2.title {
   text-shadow: 0 0 15px rgba(0, 17, 255, .4);
 }
 
-.VPFeature[data-v-549c013f] h2.title {
+.VPFeature h2.title {
   transition: all .3s ease;
 }
 
-.VPFeature[data-v-549c013f] .box {
+.VPFeature .box {
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-.VPFeature[data-v-549c013f] .icon[data-v-549c013f] {
+.VPFeature .icon {
   background-color: transparent;
 }
 
@@ -112,5 +112,14 @@
   .DocSearch-Button:hover {
     background-color: transparent;
     border-color: transparent;
+  }
+
+  .VPFeature:hover {
+    box-shadow: none;
+    animation: none;
+  }
+
+  .VPFeature:hover h2.title {
+    text-shadow: none;
   }
 }
