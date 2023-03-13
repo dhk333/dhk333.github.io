@@ -4,7 +4,7 @@
 import DefaultTheme from 'vitepress/theme'
 
 // 导入自定义主题样式/覆盖默认样式
-import './custom.css'
+import './custom.less'
 
 // 导出
 export default DefaultTheme

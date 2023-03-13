@@ -1,0 +1,108 @@
+/* 自定义主题 */
+:root {
+  /* 主题颜色 */
+  --vp-c-brand: #0011ff;
+  --vp-c-brand-light: #747bff;
+  /* 按钮颜色 */
+  --vp-button-brand-border: #747bff;
+  /* 按钮背景(鼠标移过) */
+  --vp-button-brand-hover-bg: #5058f5;
+  /* 按钮边框颜色(选中) */
+  --vp-button-brand-active-border: #5058f5;
+  /* 按钮边框颜色(鼠标移过) */
+  --vp-button-brand-hover-border: #3740f5;
+  --vp-c-brand-dark: #0011ff;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0011ff 30%, #4ba4fc);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0011ff 50%, #4ba4fc 50%) !important;
+  --vp-home-hero-image-filter: blur(72px);
+  --vp-home-hero-name-color: transparent;
+  /* 侧边栏颜色 */
+  --vp-sidebar-bg-color: #eee;
+}
+/* 主页四大板块 */
+.VPFeature {
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 15px #ddd;
+  transition: all 0.3s ease;
+  background-color: transparent !important;
+}
+.VPFeature:hover {
+  box-shadow: 0 0 15px rgba(0, 17, 255, 0.4);
+  animation: identifier 1.8s infinite ease;
+}
+.VPFeature:hover h2.title {
+  text-shadow: 0 0 15px rgba(0, 17, 255, 0.4);
+}
+.VPFeature h2.title {
+  transition: all 0.3s ease;
+}
+.VPFeature .box {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.VPFeature .icon {
+  background-color: transparent;
+}
+/* 上下浮动动画 */
+@keyframes identifier {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* 搜索框 */
+.VPNavBarSearch {
+  flex-grow: 1;
+}
+.DocSearch-Button {
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.DocSearch-Button:hover {
+  background-color: #f9f9f9;
+  border-color: #0011ff;
+}
+/* 暗黑模式 */
+.dark:root {
+  --vp-sidebar-bg-color: #161618;
+}
+.dark .DocSearch-Button {
+  background-color: transparent;
+}
+.dark .DocSearch-Button-Placeholder {
+  color: #818e92;
+}
+/* 移动端搜索框 */
+@media screen and (max-width: 767px) {
+  .VPNavBarSearch {
+    flex-grow: 0;
+  }
+  .DocSearch-Button {
+    background-color: transparent;
+  }
+  .DocSearch-Button:hover {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .VPFeature:hover {
+    box-shadow: none;
+    animation: none;
+  }
+  .VPFeature:hover h2.title {
+    text-shadow: none;
+  }
+}
+/*# sourceMappingURL=./custom.css.map */

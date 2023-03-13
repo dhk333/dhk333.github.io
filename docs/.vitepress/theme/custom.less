@@ -20,6 +20,8 @@
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #0011ff 50%, #4ba4fc 50%) !important;
   --vp-home-hero-image-filter: blur(72px);
   --vp-home-hero-name-color: transparent;
+  /* 侧边栏颜色 */
+  --vp-sidebar-bg-color: #eee;
 }
 
 /* 主页四大板块 */
@@ -90,13 +92,19 @@
   border-color: #0011ff;
 }
 
-/* 暗黑模式 搜索框 */
-.dark .DocSearch-Button {
-  background-color: transparent;
-}
+/* 暗黑模式 */
+.dark {
+  &:root {
+    --vp-sidebar-bg-color: #161618;
+  }
 
-.dark .DocSearch-Button-Placeholder {
-  color: #818e92;
+  .DocSearch-Button {
+    background-color: transparent;
+  }
+
+  .DocSearch-Button-Placeholder {
+    color: #818e92;
+  }
 }
 
 /* 移动端搜索框 */

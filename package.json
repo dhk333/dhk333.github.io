@@ -20,8 +20,6 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "directory-tree": "^3.5.1",
-    "gitalk": "^1.8.0",
-    "md5": "^2.3.0"
+    "directory-tree": "^3.5.1"
   }
 }

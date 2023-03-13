@@ -26,6 +26,7 @@ module.exports = {
     nav: [ // 页面导航
       { text: '主页', link: '/' },
       // { text: '关于我', link: '/my/' },
+      { text: '学习计划', link: '/plan/' },
       {
         text: '前端',
         items: [
