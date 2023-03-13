@@ -1,29 +1,13 @@
 {
   "hash": "d46b1ed9",
-  "browserHash": "d4e50da1",
+  "browserHash": "f4d7ab5a",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "3a8da8e4",
+      "fileHash": "f5cfa78d",
       "needsInterop": false
-    },
-    "md5": {
-      "src": "../../../../node_modules/md5/md5.js",
-      "file": "md5.js",
-      "fileHash": "b3e3a46f",
-      "needsInterop": true
-    },
-    "gitalk": {
-      "src": "../../../../node_modules/gitalk/dist/gitalk.js",
-      "file": "gitalk.js",
-      "fileHash": "524ad87f",
-      "needsInterop": true
     }
   },
-  "chunks": {
-    "chunk-RSJERJUL": {
-      "file": "chunk-RSJERJUL.js"
-    }
-  }
+  "chunks": {}
 }

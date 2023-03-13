@@ -113,4 +113,13 @@
     background-color: transparent;
     border-color: transparent;
   }
+
+  .VPFeature:hover {
+    box-shadow: none;
+    animation: none;
+  }
+
+  .VPFeature:hover h2.title {
+    text-shadow: none;
+  }
 }
