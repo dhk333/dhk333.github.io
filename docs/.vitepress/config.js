@@ -19,6 +19,8 @@ module.exports = {
       prev: '上一篇',
       next: '下一篇'
     },
+    // 标题提取深度(表示h2、h3、h4)
+    outline: [2, 3, 4],
     // logo
     logo: '/logo.png',
     nav: [ // 页面导航
