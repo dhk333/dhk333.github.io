@@ -10,4 +10,9 @@ var options = {
 
 export default defineConfig({
   plugins: [SearchPlugin(options)],
+  server:{
+    hmr:{
+      // overlay: false
+    }
+  }
 });

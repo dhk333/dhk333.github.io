@@ -7,6 +7,9 @@ module.exports = {
   title: '清晨投递个人站点',
   description: 'Just playing around.',
   lastUpdated: true, // 显示文章更新时间
+  head: [
+    ['meta', { name: 'referrer', content: 'no-referrer'}]
+  ],
   // 主题配置
   themeConfig: {
     siteTitle: '',
@@ -32,6 +35,7 @@ module.exports = {
         items: [
           { text: 'JavaScript', link: '/articles/javascript/01、基础类型' },
           { text: 'Vue', link: '/articles/vue/1.指令' },
+          { text: '微信小程序', link: '/articles/wechat/1、初识微信小程序' },
           { text: 'Git', link: '/articles/git/1.Git简介' }
         ]
       },
@@ -53,6 +57,7 @@ module.exports = {
     {
       "/articles/git": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/git"), "Git"),
       "/articles/vue": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/vue"), "Vue"),
+      "/articles/wechat": autoGetSidebarOptionBySrcDir(path.resolve(__dirname, "../articles/wechat"), "微信小程序"),
     },
     // {
     //   "/articles/git": [
