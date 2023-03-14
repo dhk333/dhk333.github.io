@@ -47,6 +47,9 @@
 .VPFeature .icon {
   background-color: transparent;
 }
+.logo {
+  height: 30px !important;
+}
 /* 上下浮动动画 */
 @keyframes identifier {
   0% {
@@ -85,7 +88,7 @@
 .dark .DocSearch-Button-Placeholder {
   color: #818e92;
 }
-/* 移动端搜索框 */
+/* 移动端 */
 @media screen and (max-width: 767px) {
   .VPNavBarSearch {
     flex-grow: 0;
@@ -103,6 +106,9 @@
   }
   .VPFeature:hover h2.title {
     text-shadow: none;
+  }
+  .VPNavScreen .container {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=./custom.css.map */

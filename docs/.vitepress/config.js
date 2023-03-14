@@ -9,7 +9,7 @@ module.exports = {
   lastUpdated: true, // 显示文章更新时间
   // 主题配置
   themeConfig: {
-    siteTitle: '清晨投递',
+    siteTitle: '',
     // 时间前缀文字
     lastUpdatedText: '最后更新',
     // 右侧侧边栏标题

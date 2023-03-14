@@ -58,6 +58,11 @@
   background-color: transparent;
 }
 
+// logo
+.logo {
+  height: 30px !important;
+}
+
 /* 上下浮动动画 */
 @keyframes identifier {
   0% {
@@ -107,8 +112,9 @@
   }
 }
 
-/* 移动端搜索框 */
+/* 移动端 */
 @media screen and (max-width: 767px) {
+  // 搜索框
   .VPNavBarSearch {
     flex-grow: 0;
   }
@@ -129,5 +135,11 @@
 
   .VPFeature:hover h2.title {
     text-shadow: none;
+  }
+
+  .VPNavScreen {
+    .container {
+      max-width: 100%;
+    }
   }
 }
