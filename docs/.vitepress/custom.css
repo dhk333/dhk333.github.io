@@ -88,6 +88,9 @@
 .dark .DocSearch-Button-Placeholder {
   color: #818e92;
 }
+.dark .logo {
+  filter: brightness(500%);
+}
 /* 移动端 */
 @media screen and (max-width: 767px) {
   .VPNavBarSearch {
