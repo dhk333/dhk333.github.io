@@ -1,1 +1,0 @@
-import{_ as t,c as d,o as e,a}from"./app.2614b7c5.js";const f=JSON.parse('{"title":"未来学习计划","description":"","frontmatter":{},"headers":[],"relativePath":"plan/index.md","lastUpdated":1678699005000}'),r={name:"plan/index.md"},s=a("",3),o=[s];function n(c,_,i,l,h,p){return e(),d("div",null,o)}const u=t(r,[["render",n]]);export{f as __pageData,u as default};
