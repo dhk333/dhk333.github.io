@@ -8,7 +8,7 @@ module.exports = {
   description: 'Just playing around.',
   lastUpdated: true, // 显示文章更新时间
   head: [
-    ['meta', { name: 'referrer', content: 'no-referrer'}]
+    ['meta', { name: 'referrer', content: 'no-referrer' }]
   ],
   // 主题配置
   themeConfig: {
@@ -28,6 +28,7 @@ module.exports = {
     logo: '/logo.png',
     nav: [ // 页面导航
       { text: '主页', link: '/' },
+      { text: '我的资源', link: '/resources/' },
       // { text: '关于我', link: '/my/' },
       { text: '学习计划', link: '/plan/' },
       {
